@@ -15,9 +15,11 @@
 
 
     <style>
-        #map {
-            width: 1024px;
-            height: 1024px;
+        html,body, #map {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0px;
         }
     </style>
 
@@ -40,7 +42,7 @@
     L.GridLayer.DebugCoords = L.GridLayer.extend({
         createTile: function (coords, done) {
             var tile = document.createElement('div');
-            tile.innerHTML = [coords.x, coords.y, coords.z].join(', ');
+            tile.innerHTML = [coords.z, coords.x, coords.y, ].join(', ');
             tile.style.outline = '1px solid red';
             tile.style.color = 'red';
 
