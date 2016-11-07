@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Grid coordinates - Leaflet</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+
+
+    <style>
+        #map {
+            width: 1024px;
+            height: 1024px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div id='map'></div>
+
+<script type="text/javascript">
+
+    var map = L.map('map', {
+        center: [2, -3],
+        crs: L.CRS.Simple,
+        zoom: 7,
+        continuousWorld: true,
+        noWrap: true
+    });
+
+    L.GridLayer.DebugCoords = L.GridLayer.extend({
+        createTile: function (coords, done) {
+            var tile = document.createElement('div');
+            tile.innerHTML = [coords.x, coords.y, coords.z].join(', ');
+            tile.style.outline = '1px solid red';
+            tile.style.color = 'red';
+
+            setTimeout(function () {
+                done(null, tile);	// Syntax is 'done(error, tile)'
+            }, 500 + Math.random() * 1500);
+
+            return tile;
+        }
+    });
+
+    L.tileLayer('http://localhost:8888/img/{z}/{x}/{y}', {
+    }).addTo(map);
+
+    L.gridLayer.debugCoords = function(opts) {
+        return new L.GridLayer.DebugCoords(opts);
+    };
+    map.addLayer( L.gridLayer.debugCoords() );
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
+<!--
+
+//    var projection = L.extend({}, L.CRS, {
+//        code: 'simple',
+//        bounds:{min:-100,max:100},
+//        projection: {
+//            project: function (latlng) {
+//                // Direct translation of lat -> x, lng -> y.
+//                return new L.Point(latlng.lat, latlng.lng);
+//            },
+//            unproject: function (point) {
+//                // Direct translation of x -> lat, y -> lng.
+//                return new L.LatLng(point.x, point.y);
+//            }
+//        },
+//        // a = 1; b = 2; c = 1; d = 0
+//        // x = a * x + b; y = c * y + d
+//        // End result is 1:1 values during transformation.
+//        transformation: new L.Transformation(1, 0, 1, 0),
+//        scale: function (zoom) {
+//            // Equivalent to 2 raised to the power of zoom, but faster.
+//            return (1 << zoom);
+//        }
+//    });
+//
+//
+//
+//
+//    var naturalZoom = 20;
+//
+//
+//    L.Projection.Direct = {
+//        project: function (latlng) {
+//            return new L.Point(latlng.lat, -latlng.lng);
+//        },
+//
+//        unproject: function (point) {
+//            return new L.LatLng(point.x, -point.y);
+//        }
+//    };
+//
+//    L.CRS.Wall = L.extend({}, L.CRS, {
+//        projection: L.Projection.Direct,
+//        transformation: new L.Transformation(1, 0, -1, 0),
+//
+//        scale: function (zoom) {
+//            return Math.pow(2, zoom-naturalZoom);
+//        }
+//    });
+//
+//
+//    var map = L.map('map', {
+//        crs: L.CRS.Wall,
+//        //maxBounds: new L.LatLngBounds([0,0], [4096, 4096])
+//    });
+//    map.setView([0,0], naturalZoom);
+//
+//    var planelatlong = [
+//        [-41.31825,174.80768],
+//        [-41.31606,174.80774],
+//        [-41.31581,174.80777],
+//        [-41.31115,174.80827],
+//        [-41.30928,174.80835],
+//        [-41.29127,174.83841],
+//        [-41.33571,174.84846],
+//        [-41.34268,174.82877]];
+//
+//
+//
+////    L.tileLayer('http://localhost:8888/img/{z}/{x}/{y}', {
+////        maxZoom: 9,
+////        continuousWorld: true,
+////        tileSize:512,
+////        noWrap: true
+////
+////    }).addTo(mymap);
+//
+//
+//    L.GridLayer.DebugCoords = L.GridLayer.extend({
+//        createTile: function (coords, done) {
+//            var tile = document.createElement('div');
+//            tile.innerHTML = [ coords.z, coords.x, coords.y].join(', ');
+//            tile.style.outline = '1px solid red';
+//            tile.style.color = 'red';
+//            setTimeout(function () {
+//                done(null, tile);	// Syntax is 'done(error, tile)'
+//            }, 500 + Math.random() * 1500);
+//
+//            return tile;
+//        }
+//    });
+//
+//
+//
+//    L.gridLayer.debugCoords = function(opts) {
+//        return new L.GridLayer.DebugCoords(opts);
+//    };
+//
+//
+//    map.addLayer( L.gridLayer.debugCoords() );
+//
+//
+//
+//    function mctoP(x){
+//        return (x/16)*256
+//    }
+//    var southWest = mymap.unproject([mctoP(-4400), mctoP(2760)], mymap.getMaxZoom());
+//    var northEast = mymap.unproject([mctoP(1600), mctoP(-3240)], mymap.getMaxZoom());
+//    //
+//
+//
+//    function pixelToBlock(p){
+//        return ((p/256)*16)
+//    }
+//    map.on('mousemove', function(e) {
+//        var c = mymap.project([e.latlng.lat, e.latlng.lng], mymap.getMaxZoom());
+//
+//
+//
+//        console.log(pixelToBlock(Math.round(c.x)),pixelToBlock(Math.round(c.y)))
+//    });
+//
+//    if (typeof(Number.prototype.toRad) === "undefined") {
+//        Number.prototype.toRad = function() {
+//            return this * Math.PI / 180;
+//        }
+//    }
+//    function getTileURL(lat, lon, zoom) {
+//        var xtile = parseInt(Math.floor( (lon + 180) / 360 * (1<<zoom) ));
+//        var ytile = parseInt(Math.floor( (1 - Math.log(Math.tan(lat.toRad()) + 1 / Math.cos(lat.toRad())) / Math.PI) / 2 * (1<<zoom) ));
+//        return "" + zoom + "/" + xtile + "/" + ytile;
+//    }
+//
+//
+//    mymap.on('click', function(e) {
+//        console.log(getTileURL(e.latlng.lat, e.latlng.lng, mymap.getZoom()));
+//    });
+//
+//    function onMapClick(e) {
+//        //Project the map click to x,y coordinates
+//        //This projection is the actual XY coordinates of the image layer
+//        //This coordinate is scaled by the amount the image is zoomed.
+//        var clientClick = mymap.project(e.latlng);
+//
+//        //Grab the original overlay
+//        var overlayImage = overlay._image;
+//
+//        //Calculate the current image ratio from the original (deals with zoom)
+//        var yR = overlayImage.clientHeight / overlayImage.naturalHeight;
+//        var xR = overlayImage.clientWidth / overlayImage.naturalWidth;
+//
+//        //scale the click coordinates to the original dimensions
+//        //basically compensating for the scaling calculated by the map projection
+//        var x = clientClick.x / xR;
+//        var y = clientClick.y / yR;
+//        console.log(x,y);
+//    }
+//
+//
+//    var polyline = L.polyline(planelatlong).addTo(mymap);
+
+</script>
+</body>
+</html>
+
+-->
+
