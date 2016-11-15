@@ -4,8 +4,10 @@ from kafka import KafkaProducer
 
 
 class IngestHandler(tornado.web.RequestHandler):
-    def get(self):
+    def post(self):
+        data = tornado.escape.json_decode(self.request.body)
         producer = KafkaProducer(bootstrap_servers='192.168.1.173:9092')
-        r = { "key" : "value" }
-        r = json.dumps(r)
-        producer.send('test', r)
+        r = json.dumps(data)
+        producer.send('test', r).get(timeout=60)
+        response = { 'message': 'Welcome to the coolest API on earth to kafka send!' }
+        self.write(response)

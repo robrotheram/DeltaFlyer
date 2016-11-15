@@ -17,6 +17,6 @@ route_paths = [
     (r'/server/register', ServerHandler),
     (r'/player/(.*)', ServerHandler),
     (r'/events/(.*)', ServerHandler),
-    (r'/ingest', IngestHandler),
+    (r'/ingest/server', IngestHandler),
     (r'/(.*)', web.StaticFileHandler, {'path': public_root,"default_filename": "index.html"}),
 ]
