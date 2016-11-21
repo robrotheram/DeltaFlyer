@@ -18,14 +18,10 @@ class Tile:
     map_max_size = math.pow(2,max_zoom)*tile_size
 
     def __init__(self):
-<<<<<<< HEAD:tileMap/tile.py
         dir = os.path.dirname(__file__)
         path = "SERVER.json"
         path = os.path.join(dir, path)
         with open(path) as data_file:
-=======
-        with open('JSON/SERVER.json') as data_file:
->>>>>>> e83c8d88029714f0ed05579da30aa26c6dc42b0f:Tile.py
             data = json.load(data_file)
         self.chunk_data = data["Worlds"][0]["loadedChunks"] #.pop()["map"]
         self.x = 'init!'
