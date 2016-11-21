@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14b5d1ad-1d55-4d8b-94b2-a0bd09dd2f8d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/anvil_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/anvil_top_damaged_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/anvil_top_damaged_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/anvil_top_damaged_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/beacon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_feet_end.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_feet_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_feet_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_head_end.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_head_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bed_head_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bedrock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/beetroots_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/beetroots_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/beetroots_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/beetroots_stage_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/bookshelf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/brewing_stand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/brewing_stand_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/brick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cactus_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cactus_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cactus_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cake_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cake_inner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cake_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cake_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/carrots_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/carrots_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/carrots_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/carrots_stage_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cauldron_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cauldron_inner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cauldron_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cauldron_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_back.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_conditional.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_conditional.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_front.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chain_command_block_side.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chorus_flower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chorus_flower_dead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/chorus_plant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/clay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/coal_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/coal_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/coarse_dirt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cobblestone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cobblestone_mossy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cocoa_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cocoa_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/cocoa_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_back.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_conditional.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_conditional.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_front.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/command_block_side.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/comparator_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/comparator_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/crafting_table_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/crafting_table_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/crafting_table_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/daylight_detector_inverted_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/daylight_detector_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/daylight_detector_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/deadbush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/debug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/debug2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/destroy_stage_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/diamond_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/diamond_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dirt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dirt_podzol_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dirt_podzol_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dispenser_front_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dispenser_front_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_acacia_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_acacia_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_birch_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_birch_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_dark_oak_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_dark_oak_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_iron_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_iron_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_jungle_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_jungle_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_spruce_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_spruce_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_wood_lower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/door_wood_upper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_fern_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_fern_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_grass_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_grass_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_paeonia_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_paeonia_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_rose_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_rose_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_sunflower_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_sunflower_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_sunflower_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_sunflower_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_syringa_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/double_plant_syringa_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dragon_egg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dropper_front_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/dropper_front_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/emerald_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/emerald_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/enchanting_table_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/enchanting_table_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/enchanting_table_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/end_bricks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/end_rod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/end_stone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/endframe_eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/endframe_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/endframe_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/farmland_dry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/farmland_wet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/fern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/fire_layer_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/fire_layer_0.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/fire_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/fire_layer_1.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_allium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_blue_orchid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_dandelion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_houstonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_oxeye_daisy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_paeonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_pot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_rose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_tulip_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_tulip_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_tulip_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/flower_tulip_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/frosted_ice_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/frosted_ice_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/frosted_ice_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/frosted_ice_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/furnace_front_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/furnace_front_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/furnace_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/furnace_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_light_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_lime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_magenta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_blue - Copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_brown - Copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_light_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_lime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_magenta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pane_top_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glass_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/glowstone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/gold_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/gold_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_path_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_path_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_side_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_side_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_side_overlay_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_side_snowed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/grass_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/gravel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_light_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_lime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_magenta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hardened_clay_stained_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hay_block_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hay_block_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hopper_inside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hopper_outside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/hopper_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/ice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/ice_packed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/iron_bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/iron_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/iron_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/iron_trapdoor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/itemframe_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/jukebox_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/jukebox_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/ladder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lapis_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lapis_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lava_flow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lava_flow.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lava_still.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lava_still.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_big_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/leaves_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/lever.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_acacia_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_big_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_big_oak_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_birch_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_jungle_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_oak_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/log_spruce_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/melon_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/melon_stem_connected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/melon_stem_disconnected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/melon_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mob_spawner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_block_inside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_block_skin_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_block_skin_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_block_skin_stem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mushroom_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mycelium_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/mycelium_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/nether_brick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/nether_wart_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/nether_wart_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/nether_wart_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/netherrack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/noteblock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/obsidian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/piston_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/piston_inner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/piston_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/piston_top_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/piston_top_sticky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_big_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/planks_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/portal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/portal.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/potatoes_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/potatoes_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/potatoes_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/potatoes_stage_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/prismarine_bricks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/prismarine_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/prismarine_rough.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/prismarine_rough.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_face_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_face_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_stem_connected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_stem_disconnected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/pumpkin_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/purpur_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/purpur_pillar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/purpur_pillar_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_chiseled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_chiseled_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_lines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_lines_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_block_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/quartz_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_activator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_activator_powered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_detector.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_detector_powered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_golden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_golden_powered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/rail_normal_turned.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sandstone_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sandstone_carved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sandstone_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sandstone_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/red_sandstone_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_cross_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_line0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_line1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_line_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_dust_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_lamp_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_lamp_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_ore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_torch_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/redstone_torch_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/reeds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeater_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeater_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_back.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_conditional.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_conditional.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_front.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/repeating_command_block_side.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sandstone_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sandstone_carved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sandstone_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sandstone_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sandstone_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_roofed_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sapling_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sea_lantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sea_lantern.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/slime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/snow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/soul_sand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sponge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/sponge_wet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stationary_water.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stationary_water.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_andesite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_andesite_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_diorite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_diorite_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_granite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_granite_smooth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_slab_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stone_slab_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stonebrick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stonebrick_carved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stonebrick_cracked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/stonebrick_mossy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/tallgrass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/tnt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/tnt_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/tnt_side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/tnt_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/torch_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/trapdoor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/trip_wire.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/trip_wire_source.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/vine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/water_flow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/water_flow.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/water_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/water_still.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/water_still.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/waterlily.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wheat_stage_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_light_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_lime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_magenta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks/wool_colored_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks_3d/furnace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks_3d/rail_normal_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/blocks_3d/reeds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/alex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/armorstand/wood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/bricks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/creeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/curly_border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/diagonal_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/diagonal_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/diagonal_up_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/diagonal_up_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/flower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/gradient_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/half_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/half_horizontal_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/half_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/half_vertical_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/mojang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/rhombus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/skull.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/small_stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/square_bottom_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/square_bottom_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/square_top_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/square_top_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/straight_cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_downleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_downright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/stripe_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/triangle_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/triangle_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/triangles_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner/triangles_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/banner_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/bat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/beacon_beam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/blaze.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_darkoak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/boat/boat_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cat/black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cat/ocelot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cat/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cat/siamese.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/christmas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/christmas_double.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/ender.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/normal_double.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/trapped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chest/trapped_double.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/chicken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cow/cow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/cow/mooshroom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/creeper/creeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/creeper/creeper_armor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/elytra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enchanting_table_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/end_gateway_beam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/end_portal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/endercrystal/endercrystal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/endercrystal/endercrystal_beam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderdragon/dragon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderdragon/dragon_exploding.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderdragon/dragon_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderdragon/dragon_fireball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderman/enderman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/enderman/enderman_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/endermite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/experience_orb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/explosion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/ghast/ghast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/ghast/ghast_shooting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/guardian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/guardian_beam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/guardian_elder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/armor/horse_armor_diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/armor/horse_armor_gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/armor/horse_armor_iron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/donkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_chestnut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_creamy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_darkbrown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_markings_blackdots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_markings_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_markings_whitedots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_markings_whitefield.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_skeleton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/horse_zombie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/horse/mule.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/iron_golem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/lead_knot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/minecart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/pig/pig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/pig/pig_saddle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/projectiles/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/projectiles/spectral_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/projectiles/tipped_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/caerbannog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/salt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/toast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/rabbit/white_splotched.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/sheep/sheep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/sheep/sheep_fur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/bricks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/creeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/curly_border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/diagonal_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/diagonal_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/diagonal_up_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/diagonal_up_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/flower.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/gradient_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/half_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/half_horizontal_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/half_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/half_vertical_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/mojang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/rhombus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/skull.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/small_stripes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/square_bottom_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/square_bottom_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/square_top_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/square_top_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/straight_cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_downleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_downright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/stripe_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/triangle_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/triangle_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/triangles_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield/triangles_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shield_base_nopattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shulker/endergolem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/shulker/spark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/sign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/silverfish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/skeleton/skeleton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/skeleton/wither_skeleton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/slime/magmacube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/slime/slime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/snowman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/spider/cave_spider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/spider/spider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/spider_eyes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/squid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/steve.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/sweep.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/butcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/farmer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/librarian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/priest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/smith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/villager/villager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/witch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wither/wither.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wither/wither_armor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wither/wither_invulnerable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wolf/wolf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wolf/wolf_angry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wolf/wolf_collar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/wolf/wolf_tame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie/zombie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie/zombie_villager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_pigman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_butcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_farmer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_librarian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_priest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_smith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/entity/zombie_villager/zombie_villager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/clouds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/end_sky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/moon_phases.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/rain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/snow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/environment/sun.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/font/ascii.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/font/ascii_sga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/achievement/achievement_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/achievement/achievement_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/bars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/anvil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/beacon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/brewing_stand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/crafting_table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/creative_inventory/tab_inventory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/creative_inventory/tab_item_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/creative_inventory/tab_items.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/creative_inventory/tabs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/dispenser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/enchanting_table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/furnace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/generic_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/hopper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/horse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/inventory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/stats_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/container/villager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/demo_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/options_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/chaos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/delight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/drought.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/isles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/luck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/madness.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/presets/water.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/resource_packs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/server_selection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/spectator_widgets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/stream_indicator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/background/panorama_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/minecraft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/title/mojang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/widgets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/gui/world_selection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/acacia_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/apple_golden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/banner_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/banner_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/barrier.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/beef_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/beef_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/beetroot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/beetroot_seeds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/beetroot_soup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/birch_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/blaze_powder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/blaze_rod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/book_enchanted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/book_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/book_writable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/book_written.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bow_pulling_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bow_pulling_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bow_pulling_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bow_standby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bowl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/brewing_stand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/brick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/broken_elytra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bucket_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bucket_lava.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bucket_milk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/bucket_water.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/cake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/carrot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/carrot_golden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/carrot_on_a_stick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/cauldron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chainmail_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chainmail_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chainmail_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chainmail_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/charcoal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chicken_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chicken_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chorus_fruit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/chorus_fruit_popped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clay_ball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/clock_63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/coal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/comparator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/compass_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/cookie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dark_oak_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_axe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_hoe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_horse_armor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_pickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_shovel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/diamond_sword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_acacia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_birch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_dark_oak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_iron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_jungle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_spruce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/door_wood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dragon_breath.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_light_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_lime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_magenta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/dye_powder_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/egg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/elytra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/emerald.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/empty_armor_slot_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/empty_armor_slot_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/empty_armor_slot_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/empty_armor_slot_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/empty_armor_slot_shield.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/end_crystal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/ender_eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/ender_pearl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/experience_bottle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fireball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fireworks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fireworks_charge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fireworks_charge_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_clownfish_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_cod_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_cod_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_pufferfish_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_salmon_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fish_salmon_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fishing_rod_cast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/fishing_rod_uncast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/flint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/flint_and_steel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/flower_pot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/ghast_tear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/glowstone_dust.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_axe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_hoe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_horse_armor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_ingot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_nugget.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_pickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_shovel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gold_sword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/gunpowder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/hopper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_axe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_hoe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_horse_armor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_ingot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_pickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_shovel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/iron_sword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/item_frame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/jungle_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/lead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_boots_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_chestplate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_chestplate_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_helmet_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_leggings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/leather_leggings_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/magma_cream.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/map_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/map_filled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/melon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/melon_speckled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_chest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_command_block.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_furnace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_hopper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/minecart_tnt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/mushroom_stew.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/mutton_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/mutton_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/name_tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/nether_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/nether_wart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/netherbrick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/oak_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/painting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/paper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/porkchop_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/porkchop_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potato.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potato_baked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potato_poisonous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potion_bottle_drinkable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potion_bottle_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potion_bottle_lingering.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potion_bottle_splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/potion_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/prismarine_crystals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/prismarine_shard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/pumpkin_pie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/quartz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/quiver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rabbit_cooked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rabbit_foot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rabbit_hide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rabbit_raw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rabbit_stew.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_blocks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_cat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_chirp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_far.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_mall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_mellohi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_stal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_strad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_wait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/record_ward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/redstone_dust.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/reeds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/repeater.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/rotten_flesh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/ruby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/saddle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/seeds_melon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/seeds_pumpkin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/seeds_wheat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/shears.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/sign.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/slimeball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/snowball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spawn_egg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spawn_egg_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spectral_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spider_eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spider_eye_fermented.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/spruce_boat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stone_axe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stone_hoe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stone_pickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stone_shovel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/stone_sword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/string.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/sugar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/tipped_arrow_base.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/tipped_arrow_head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wheat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wood_axe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wood_hoe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wood_pickaxe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wood_shovel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wood_sword.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/items/wooden_armorstand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/map/map_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/map/map_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/enchanted_item_glint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/enchanted_item_glint.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/forcefield.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/pumpkinblur.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/pumpkinblur.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/shadow.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/underwater.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/unknown_pack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/unknown_server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/vignette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/misc/vignette.png.mcmeta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/chainmail_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/chainmail_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/diamond_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/diamond_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/gold_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/gold_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/iron_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/iron_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/leather_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/leather_layer_1_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/leather_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/models/armor/leather_layer_2_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/painting/paintings_kristoffer_zetterstrand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/particle/footprint.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Textures/particle/particles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blurred.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tornadoserver2.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reqirements.txt" afterPath="$PROJECT_DIR$/reqirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tornadoserver.py" afterPath="$PROJECT_DIR$/tornadoserver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled3.iml" afterPath="$PROJECT_DIR$/untitled3.iml" />
+    </list>
+    <ignored path="DeltaFlyer.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DeltaFlyer$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1479600808220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaFlyer$Title.coverage" NAME="Title Coverage Results" MODIFIED="1478567604563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaFlyer$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1478819406561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaFlyer$Unnamed__2_.coverage" NAME="Unnamed (2) Coverage Results" MODIFIED="1479582810065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DeltaFlyer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tornadoserver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reqirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reqirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/Tile.py" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/auth.py" />
+        <option value="$PROJECT_DIR$/reqirements.txt" />
+        <option value="$PROJECT_DIR$/tornadoserver.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="294" />
+    <option name="y" value="101" />
+    <option name="width" value="2213" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/pythonENV/Scripts/python.exe" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="untitled3" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="untitled3" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\robert\DeltaFlyer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Unnamed">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="untitled3" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\robert\untitled\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tornadoserver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Title" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\robert\untitled\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed (2)" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\robert\pythonENV\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Title" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Unnamed (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Unnamed (2)" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14b5d1ad-1d55-4d8b-94b2-a0bd09dd2f8d" name="Default" comment="" />
+      <created>1478537934041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478537934041</updated>
+      <workItem from="1478537935152" duration="9410000" />
+      <workItem from="1478566937104" duration="18000" />
+      <workItem from="1478624809043" duration="307000" />
+      <workItem from="1478819321052" duration="1779000" />
+      <workItem from="1478971468410" duration="99000" />
+    </task>
+    <task id="LOCAL-00001" summary="Woop the delta flyer lives">
+      <created>1478550647771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478550647771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11613000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="294" y="101" width="2213" height="1087" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13189448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46638206" sideWeight="0.5027978" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45144078" sideWeight="0.49720225" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46638206" sideWeight="0.5027978" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46638206" sideWeight="0.49720225" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13189448" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Woop the delta flyer lives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Woop the delta flyer lives" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SERVER.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="0" column="2441" selection-start-line="0" selection-start-column="2441" selection-end-line="0" selection-end-column="2441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blurred.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reqirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornadoserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.5.2 virtualenv at C:\Users\robert\untitled interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>untitled3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

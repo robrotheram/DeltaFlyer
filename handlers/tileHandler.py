@@ -1,26 +1,16 @@
-import io
 import tornado.web
-import tornado.httpserver
-import tornado.ioloop
 from tornado import concurrent
-from tornado import gen
-import tornado.web as web
 from tornado.concurrent import run_on_executor
 from concurrent.futures import ThreadPoolExecutor
 import time
 import numpy as np
 import math
 import os
-from Tile import Tile
+import io
 
-public_root = os.path.join(os.path.dirname(__file__), 'public')
+from tileMap.tile import Tile
 
-
-class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.write("Hello, world %s" % time.time())
-
-class SleepHandler(tornado.web.RequestHandler):
+class TileHandler(tornado.web.RequestHandler):
     executor = concurrent.futures.ThreadPoolExecutor(8)
 
     tile_size = 256
@@ -62,22 +52,3 @@ class SleepHandler(tornado.web.RequestHandler):
         imgbuff = io.BytesIO()
         image.save(imgbuff,format="jpeg")
         return imgbuff.getvalue()
-
-
-class App(tornado.web.Application):
-    def __init__(self):
-        handlers = [
-            #(r"/", MainHandler),
-            (r"/img/(\d+)/(-?[0-9]+)/(-?[0-9]+)", SleepHandler),
-            (r'/(.*)', web.StaticFileHandler, {'path': public_root,"default_filename": "index.html"}),
-        ]
-        tornado.web.Application.__init__(self, handlers)
-        self.executor = ThreadPoolExecutor(max_workers=60)
-
-
-if __name__ == "__main__":
-    app = App();
-    server = tornado.httpserver.HTTPServer(app)
-    server.bind(8888)
-    server.start()  # autodetect number of cores and fork a process for each
-    tornado.ioloop.IOLoop.instance().start()

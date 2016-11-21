@@ -4,6 +4,9 @@ import math
 import io
 import numpy as np
 import math
+import os
+
+
 class Tile:
 
     tile_size = 256
@@ -15,7 +18,10 @@ class Tile:
     map_max_size = math.pow(2,max_zoom)*tile_size
 
     def __init__(self):
-        with open('SERVER.json') as data_file:
+        dir = os.path.dirname(__file__)
+        path = "SERVER.json"
+        path = os.path.join(dir, path)
+        with open(path) as data_file:
             data = json.load(data_file)
         self.chunk_data = data["Worlds"][0]["loadedChunks"] #.pop()["map"]
         self.x = 'init!'
@@ -31,7 +37,10 @@ class Tile:
         return path
 
     def get_img_path(self,block_name):
+
+        dir = os.path.dirname(__file__)
         path = "Textures/blocks/"+(block_name.lower())+".png"
+        path = os.path.join(dir, path)
         return path
 
 
@@ -52,7 +61,8 @@ class Tile:
     def get_img(self,block):
         try:
             return Image.open(self.get_img_path(block))
-        except FileNotFoundError:
+        except EnvironmentError:
+            print("ERROR: %s" % self.get_img_path(block) )
             return Image.new('RGB',(32,32))
 
     def render_chunk(self,blocks):
@@ -66,8 +76,8 @@ class Tile:
             print("rendering new chunk")
             #blocks.reverse();
             for i in range(0,(width*width),1):
-                x = math.floor(i / width)
-                y = i % width
+                x = int(math.floor(i / width))
+                y = int(i % width)
 
                 im = self.get_img(blocks[i])
                 img.paste(im, ((x*self.block_size),(y*self.block_size)))
