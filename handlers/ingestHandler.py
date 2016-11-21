@@ -1,8 +1,11 @@
 import tornado.web
-from auth.jwtauth import jwtauth
-@jwtauth
+import json
+from kafka import KafkaProducer
+
+
 class IngestHandler(tornado.web.RequestHandler):
     def get(self):
-        # Contains user found in previous auth
-        if self.request.headers.get('auth'):
-            self.write('ok')
+        producer = KafkaProducer(bootstrap_servers='192.168.1.173:9092')
+        r = { "key" : "value" }
+        r = json.dumps(r)
+        producer.send('test', r)
