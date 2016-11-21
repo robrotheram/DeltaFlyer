@@ -1,0 +1,15 @@
+{
+  "_id":"919231-0232121",
+  "world_name":"overworld",
+  "timestamp":"1231232",
+  "player":[],
+  "enities":30,
+  "chunks":[
+    {
+      "location":{"x":0,"z":0},
+      "number_of_enities":0,
+      "chunk_data":"_id",
+      "player":[]
+    }
+  ]
+}
