@@ -17,7 +17,7 @@ class App(web.Application):
 
         #Define config options
         define("port")
-
+        define("address")
         #MogoSettings
         define("mongo_host")
         define("mongo_port")
@@ -44,5 +44,5 @@ if __name__ == "__main__":
     server = tornado.httpserver.HTTPServer(app)
     server.listen(options.port)
     logging.warn("Server istatrting")
-    print options.as_dict()
+    print "Server listening at %s:%s" %(options.address, options.port)
     tornado.ioloop.IOLoop.instance().start()

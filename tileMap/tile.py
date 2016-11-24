@@ -5,7 +5,7 @@ import io
 import numpy as np
 import math
 import os
-
+import logging
 
 class Tile:
 
@@ -62,7 +62,7 @@ class Tile:
         try:
             return Image.open(self.get_img_path(block))
         except EnvironmentError:
-            print("ERROR: %s" % self.get_img_path(block) )
+            logging.info("ERROR: %s" % self.get_img_path(block) )
             return Image.new('RGB',(32,32))
 
     def render_chunk(self,blocks):
@@ -70,10 +70,9 @@ class Tile:
         img_hash = hash(tuple(blocks))
         width =16;
         if(img_hash in self.rendered_chunks):
-            print("Found!!!")
             return self.rendered_chunks[img_hash]
         else:
-            print("rendering new chunk")
+            logging.info("rendering new chunk")
             #blocks.reverse();
             for i in range(0,(width*width),1):
                 x = int(math.floor(i / width))
@@ -86,26 +85,26 @@ class Tile:
 
     def rendertile(self,z,x,y):
         chunklist = self.get_chunk_list(z,x,y)
-        print(chunklist)
+        logging.info(chunklist)
         chunk_width = math.pow(2,self.max_zoom-z);
         image_size = int(self.chunk_image_size/chunk_width)
         tile = Image.new('RGB', (self.chunk_image_size,self.chunk_image_size)) #512 x 512
-        print(chunk_width)
-        print(image_size)
+        logging.info(chunk_width)
+        logging.info(image_size)
 
         for i in range(0,len(chunklist),1):
             cl = chunklist[i]
             x = i % chunk_width
             y = math.floor(i / chunk_width)
-            print("%d,%d"%(x,y))
+            logging.info("%d,%d"%(x,y))
             res = list(filter(lambda x: x["location"]["x"] == cl[0] and x["location"]["z"] == cl[1], self.chunk_data))
             img = None
             if not (res):
-                print("(%d,%d) Empty List"%(x,y))
+                logging.info("(%d,%d) Empty List"%(x,y))
                 img = Image.new('RGB',(32,32))
             else:
                 chunk = (res.pop())
-                print("(%d,%d) | Chunk: (%d,%d)"%(x,y,chunk["location"]["x"],chunk["location"]["z"]))
+                logging.info("(%d,%d) | Chunk: (%d,%d)"%(x,y,chunk["location"]["x"],chunk["location"]["z"]))
                 blocks = chunk["map"]
                 img = self.render_chunk(blocks)
 
