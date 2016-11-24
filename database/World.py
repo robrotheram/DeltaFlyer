@@ -1,7 +1,7 @@
 from database.DB import DB
 from tornado.options import options
 
-class EventDocuments(DB):
+class WorldDocuments(DB):
 
     def __init__(self,host=None,port=None,db=None):
         if host is None:
@@ -9,7 +9,7 @@ class EventDocuments(DB):
         else:
             DB.__init__(self,host,port,db)
 
-    def getEvents(self,collection,t=0,delta=60):
+    def getWorldAT(self,collection, t=0,delta=60):
         self.gettimeboundaries(t,delta)
         self.collection = collection
         self.querry = {
@@ -18,23 +18,18 @@ class EventDocuments(DB):
                 "$lt":self.time_upper
             }
         }
-        print self.querry
         return self
 
-
-
-
-
 if __name__ == "__main__":
-    #1479205639
-    ed = EventDocuments('127.0.0.1', 27017,"beta");
-    ed.getEvents("testACCOUNT_events",0,(800000))
-    ed.execute()
+    pd = WorldDocuments('127.0.0.1', 27017,"beta");
+    pd.getChunksAT(
+            "testACCOUNT_chunks",
+            "world",
+            1479993634 #1479205639
+        )
+    pd.set_sort("time",-1)
+    pd.set_limit(0)
 
-    print ed.refine(["EventType"]).toJson()
+    pd.execute()
 
-
-    #.filter("EventType",["CreatureSpawnEvent"])
-
-
-
+    print pd.count()

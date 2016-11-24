@@ -21,6 +21,7 @@ class App(web.Application):
         #MogoSettings
         define("mongo_host")
         define("mongo_port")
+        define("mongo_db")
         define("mongo_user")
         define("mongo_pass")
 

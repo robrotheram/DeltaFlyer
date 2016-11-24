@@ -6,6 +6,8 @@ from pymongo import MongoClient
 import jwt
 import time
 from auth.jwtauth import jwtauth
+from database.Users import UserDocuments
+
 
 @jwtauth
 class UserHandler(tornado.web.RequestHandler):
@@ -28,22 +30,23 @@ class RegisterHandler(tornado.web.RequestHandler):
             self.finish()
             return
 
-        salt = uuid.uuid4().hex
-        hashed_password = hashlib.sha512(password + salt).hexdigest()
-        self.write(hashed_password)
+        if UserDocuments().get_user(username) is None:
+            salt = uuid.uuid4().hex
+            hashed_password = hashlib.sha512(password + salt).hexdigest()
+            UserDocuments().add_user(username,hashed_password,salt,email)
 
-        client = MongoClient('192.168.1.173', 27017)
-        db = client.beta
-        result = db.users.insert_one(
-            {
-                "username" : username,
-                "password" : hashed_password,
-                "email" : email,
-                "salt" : salt,
-                "created_at" : date
-            }
-        );
-        client.close();
+            json = {"msg":"User registers :) "}
+            self.write(json)
+            self.finish()
+            return
+
+        else :
+            json = {"error":"user exits"}
+            self.write(json)
+            self.finish()
+            return
+
+
 
 
 class AuthHandler(tornado.web.RequestHandler):
@@ -66,12 +69,12 @@ class AuthHandler(tornado.web.RequestHandler):
             self.finish()
             return
 
-        client = MongoClient('192.168.1.173', 27017)
-        db = client.beta
-        result = db.users.find_one({"username" : username});
+
+        result = UserDocuments().get_user(username)
         hashed_password = hashlib.sha512(password + result["salt"]).hexdigest()
         if hashed_password == result["password"] :
-            response = {"login":"True","token":self.encoded}
+            response = {"login":True,"token":self.encoded}
             self.write(response)
         else:
-            self.write("NO")
+            response = {"login":False, "msg":"username and/or password invalid"}
+            self.write(response)

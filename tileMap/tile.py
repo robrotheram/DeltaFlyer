@@ -7,6 +7,9 @@ import math
 import os
 import logging
 
+from database.Chunk import ChuckDocuments
+
+
 class Tile:
 
     tile_size = 256
@@ -85,6 +88,8 @@ class Tile:
 
     def rendertile(self,z,x,y):
         chunklist = self.get_chunk_list(z,x,y)
+        #print chunklist
+
         logging.info(chunklist)
         chunk_width = math.pow(2,self.max_zoom-z);
         image_size = int(self.chunk_image_size/chunk_width)
@@ -97,7 +102,8 @@ class Tile:
             x = i % chunk_width
             y = math.floor(i / chunk_width)
             logging.info("%d,%d"%(x,y))
-            res = list(filter(lambda x: x["location"]["x"] == cl[0] and x["location"]["z"] == cl[1], self.chunk_data))
+            #res = list(filter(lambda x: x["location"]["x"] == cl[0] and x["location"]["z"] == cl[1], self.chunk_data))
+            res = self.getChunkFromDB(cl[0],cl[1])
             img = None
             if not (res):
                 logging.info("(%d,%d) Empty List"%(x,y))
@@ -113,13 +119,26 @@ class Tile:
             tile.paste(img, (int(x*image_size),int(y*image_size)))
         return tile
 
+    def getChunkFromDB(self,x,z):
+        pd = ChuckDocuments()
+        pd.getChunksAT(
+            "testACCOUNT_chunks",
+            "world",
+            x,z,
+            1479995841#1479993634 #1479205639
+        )
+        pd.set_sort("time",-1)
+        pd.set_limit(1)
+        pd.execute()
+        return pd.getResult()
+
 
 
 
 
 if __name__ == "__main__":
      tile = Tile()
-     tile.rendertile(8,5,-6).show();
+     tile.rendertile(9,10,-11).show();
 
 
      # image = tile.get4chunks()

@@ -1,7 +1,7 @@
 from database.DB import DB
 from tornado.options import options
 
-class EventDocuments(DB):
+class PlayerDocuments(DB):
 
     def __init__(self,host=None,port=None,db=None):
         if host is None:
@@ -9,32 +9,29 @@ class EventDocuments(DB):
         else:
             DB.__init__(self,host,port,db)
 
-    def getEvents(self,collection,t=0,delta=60):
+    def get_by_player_UUID(self,collection, uuid, t=0,delta=60):
         self.gettimeboundaries(t,delta)
         self.collection = collection
         self.querry = {
+            "playerUUID" : uuid,
             "meta.time": {
                 "$gte":self.time_lower,
                 "$lt":self.time_upper
             }
         }
-        print self.querry
         return self
 
 
-
-
-
 if __name__ == "__main__":
-    #1479205639
-    ed = EventDocuments('127.0.0.1', 27017,"beta");
-    ed.getEvents("testACCOUNT_events",0,(800000))
-    ed.execute()
+    pd = PlayerDocuments('127.0.0.1', 27017,"beta");
+    pd.getAllPlayerEvents(
+            "testACCOUNT_events",
+            "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",
+            1479205639
+        ).filter("EventType",["PlayerMoveEvent"]).execute()
 
-    print ed.refine(["EventType"]).toJson()
-
-
-    #.filter("EventType",["CreatureSpawnEvent"])
-
+    print pd.refine(["playerName"]).toJson()
 
 
+
+    #    print pd.getE"playerUUID" : "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",ventsWithType("testACCOUNT_events","PlayerMoveEvent").toJson()
