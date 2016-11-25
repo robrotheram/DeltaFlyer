@@ -125,7 +125,7 @@ class Tile:
             "testACCOUNT_chunks",
             "world",
             x,z,
-            1479995841#1479993634 #1479205639
+            0#1479993634 #1479205639
         )
         pd.set_sort("time",-1)
         pd.set_limit(1)

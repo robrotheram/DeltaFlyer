@@ -7,6 +7,7 @@ import jwt
 import time
 from auth.jwtauth import jwtauth
 from database.Users import UserDocuments
+from tornado.options import define, options
 
 
 @jwtauth
@@ -54,7 +55,7 @@ class AuthHandler(tornado.web.RequestHandler):
         self.encoded = jwt.encode({
             'some': 'payload',
             'a': {2: True},
-            'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=60)},
+            'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=int(options.token_age))},
             'secret_string',
             algorithm='HS256'
         )
@@ -68,7 +69,6 @@ class AuthHandler(tornado.web.RequestHandler):
             self.write(json)
             self.finish()
             return
-
 
         result = UserDocuments().get_user(username)
         hashed_password = hashlib.sha512(password + result["salt"]).hexdigest()

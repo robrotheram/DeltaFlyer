@@ -12,7 +12,7 @@ class ServerDocuments(DB):
             DB.__init__(self,host,port,db)
 
 
-    def add_server(self, name,description,host,public_key,private_key,date):
+    def add_server(self, name,description,host,public_key,private_key):
         date = int(time.time())
         self.db.servers.insert_one(
             {
@@ -25,20 +25,11 @@ class ServerDocuments(DB):
             }
         );
 
-    def get_user(self, username):
-        return self.db.users.find_one({"username" : username})
+    def get_server(self, serverName):
+        return self.db.servers.find_one({"serverName" : serverName})
 
-
-
-if __name__ == "__main__":
-    pd = UserDocuments('127.0.0.1', 27017,"beta");
-    pd.getAllPlayerEvents(
-        "testACCOUNT_events",
-        "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",
-        1479205639
-    ).filter("EventType",["PlayerMoveEvent"]).execute()
-
-    print pd.refine(["playerName"]).toJson()
+    def get_serverByPublic(self, publicKey):
+        return self.db.servers.find_one({"public_key": publicKey})
 
 
 

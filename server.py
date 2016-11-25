@@ -2,6 +2,7 @@ import io, os
 import tornado.web as web
 import tornado.httpserver
 import tornado.ioloop
+from kafka import KafkaProducer
 from tornado import concurrent
 from concurrent.futures import ThreadPoolExecutor
 from tornado.options import define, options
@@ -12,12 +13,16 @@ from routes.routes import route_paths
 
 class App(web.Application):
     def __init__(self):
+
         web.Application.__init__(self, route_paths)
         self.executor = ThreadPoolExecutor(max_workers=60)
 
         #Define config options
         define("port")
         define("address")
+
+        define("token_age")
+
         #MogoSettings
         define("mongo_host")
         define("mongo_port")
@@ -35,7 +40,13 @@ class App(web.Application):
 
         dir = os.path.dirname(__file__)
         path = os.path.join(dir, "config/config.py")
-        tornado.options.parse_config_file(path)
+        options.parse_config_file(path)
+
+        if options.kafka_host is not "":
+            kafkaConnection = options.kafka_host+":"+options.kafka_port
+            self.producer = KafkaProducer(bootstrap_servers=kafkaConnection)
+
+        print options.kafka_host
 
 
 
@@ -43,6 +54,7 @@ class App(web.Application):
 if __name__ == "__main__":
     app = App();
     server = tornado.httpserver.HTTPServer(app)
+
     server.listen(options.port)
     logging.warn("Server istatrting")
     print "Server listening at %s:%s" %(options.address, options.port)
