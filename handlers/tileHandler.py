@@ -33,22 +33,22 @@ class TileHandler(tornado.web.RequestHandler):
 
 
     @tornado.gen.coroutine
-    def get(self, z,x,y):
-        print((z,x,y))
+    def get(self,server,world, z,x,y):
+        print((server,world,z,x,y))
         # if (self.is_tile_invalid(int(z),int(x),int(y))):
         #     self.write("NOT VALID")
         #     self.finish()
         #     return
 
-        n = yield self._exe(z,x,y)
+        n = yield self._exe(server,world,z,x,y)
         self.set_header('Content-Type', 'image/jpg')
         self.write(n)
         self.finish()
 
     @run_on_executor
-    def _exe(self,z,x,y):
+    def _exe(self,server,world,z,x,y):
         tile = Tile()
-        image = tile.rendertile(int(z),int(x),int(y))
+        image = tile.rendertile(server,world,int(z),int(x),int(y))
         imgbuff = io.BytesIO()
         image.save(imgbuff,format="jpeg")
         return imgbuff.getvalue()

@@ -28,7 +28,7 @@ class IngestHandler(tornado.web.RequestHandler):
         serverName = self.request.headers.get("serverName")
         res = yield self.background_task(tornado.escape.json_decode(self.request.body), serverName)
         if res:
-            response = { 'message': 'Event Submitted' }
+            response = { 'message': 'Event Submitted',"serverID":serverName  }
         else:
-            response = {'message': 'Broker'}
+            response = {'message': 'Broker',"serverID":serverName}
         self.write(response)

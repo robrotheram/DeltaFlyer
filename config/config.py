@@ -2,7 +2,7 @@ port="8888"
 token_age="300"
 
 #Mongo Settings
-mongo_host = "192.168.1.173"
+mongo_host = "127.0.0.1"
 mongo_port = "27017"
 mongo_db = "beta"
 

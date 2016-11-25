@@ -22,6 +22,11 @@ class DB:
             self.json_docs.append(doc)
 
     def gettimeboundaries(self, t=0,delta=0):
+        if t is None:
+            t =0
+        if delta is None:
+            delta = 60
+
         self.time_upper = t
 
 

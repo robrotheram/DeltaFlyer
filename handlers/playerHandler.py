@@ -3,6 +3,22 @@ from auth.jwtauth import jwtauth
 @jwtauth
 class PlayerHandler(tornado.web.RequestHandler):
     def get(self):
-        # Contains user found in previous auth
-        if self.request.headers.get('auth'):
-            self.write('ok')
+        try:
+            time = int(self.get_argument("time", default=None, strip=False))
+            delta = int(self.get_argument("delta", default=None, strip=False))
+            list = (self.get_argument("filter", default=None, strip=False))
+            if list is not None:
+                list = list.split(',')
+
+        except TypeError, e:
+            time = 0
+            delta = 60
+        collection = servername+"_events"
+        ed = EventDocuments().getEvents(collection,time,delta).filter("EventType",[type]).execute()
+
+
+        if list is not None:
+            ed.refine(list)
+
+        self.set_header("Content-Type", 'application/json; charset="utf-8"')
+        self.write(ed.toJson())

@@ -27,7 +27,7 @@ if __name__ == "__main__":
     pd.getAllPlayerEvents(
             "testACCOUNT_events",
             "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",
-            1479205639
+
         ).filter("EventType",["PlayerMoveEvent"]).execute()
 
     print pd.refine(["playerName"]).toJson()

@@ -18,7 +18,6 @@ class EventDocuments(DB):
                 "$lt":self.time_upper
             }
         }
-        print self.querry
         return self
 
 
