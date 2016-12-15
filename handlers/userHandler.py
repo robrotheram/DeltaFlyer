@@ -5,10 +5,23 @@ import datetime
 from pymongo import MongoClient
 import jwt
 import time
-from auth.jwtauth import jwtauth
+from auth.jwtauth import jwtauth, secret_key
 from database.Users import UserDocuments
 from tornado.options import define, options
 
+
+class BaseHandler(tornado.web.RequestHandler):
+    def set_default_headers(self):
+        self.set_header("Access-Control-Allow-Origin", "*");
+        self.set_header("Access-Control-Allow-Credentials", "true");
+        self.set_header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+        self.set_header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
+
+
+    def options(self):
+        # no body
+        self.set_status(204)
+        self.finish()
 
 @jwtauth
 class UserHandler(tornado.web.RequestHandler):
@@ -17,7 +30,7 @@ class UserHandler(tornado.web.RequestHandler):
         if self.request.headers.get('auth'):
             self.write('ok')
 
-class RegisterHandler(tornado.web.RequestHandler):
+class RegisterHandler(BaseHandler):
     def post(self):
         data = tornado.escape.json_decode(self.request.body)
         try:
@@ -47,18 +60,8 @@ class RegisterHandler(tornado.web.RequestHandler):
             self.finish()
             return
 
+class AuthHandler(BaseHandler):
 
-
-
-class AuthHandler(tornado.web.RequestHandler):
-    def prepare(self):
-        self.encoded = jwt.encode({
-            'some': 'payload',
-            'a': {2: True},
-            'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=int(options.token_age))},
-            'secret_string',
-            algorithm='HS256'
-        )
     def post(self):
         data = tornado.escape.json_decode(self.request.body)
         try:
@@ -71,9 +74,22 @@ class AuthHandler(tornado.web.RequestHandler):
             return
 
         result = UserDocuments().get_user(username)
+
+        if result is None:
+            self.write({"login":False, "msg":"username and/or password invalid"})
+            self.finish();
+
         hashed_password = hashlib.sha512(password + result["salt"]).hexdigest()
         if hashed_password == result["password"] :
-            response = {"login":True,"token":self.encoded}
+            exp_time = datetime.datetime.utcnow() + datetime.timedelta(seconds=int(options.token_age))
+            encoded = jwt.encode({'username':username, 'exp': exp_time},secret_key, algorithm='HS256')
+            response = {
+                "login":True,
+                "username":username,
+                "email":result["email"],
+                "exp":exp_time.strftime('%s'),
+                "token":encoded,
+            }
             self.write(response)
         else:
             response = {"login":False, "msg":"username and/or password invalid"}
