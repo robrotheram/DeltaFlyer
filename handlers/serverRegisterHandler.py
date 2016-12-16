@@ -6,10 +6,12 @@ import jwt
 from auth.jwtauth import jwtauth
 from database.Server import ServerDocuments
 from auth.serverjwtauth import serverjwtauth
+from basehandler import BaseHandler
+
 
 
 @jwtauth
-class ServerRegisterHandler(tornado.web.RequestHandler):
+class ServerRegisterHandler(BaseHandler):
     def post(self):
         data = tornado.escape.json_decode(self.request.body)
         try:
@@ -29,8 +31,8 @@ class ServerRegisterHandler(tornado.web.RequestHandler):
             print private_key
 
             public_key = jwt.encode({'serverName': serverName}, private_key, algorithm='HS256')
-
-            ServerDocuments().add_server(serverName, description, ip_address, public_key, private_key)
+            username = self.request.headers.get("username")
+            ServerDocuments().add_server(serverName, username, description, ip_address, public_key, private_key)
 
             json = {"msg": "server registers :)","auth_token" : public_key}
             self.write(json)
@@ -43,9 +45,34 @@ class ServerRegisterHandler(tornado.web.RequestHandler):
             self.finish()
             return
 
+@jwtauth
+class ServerListHandler(BaseHandler):
+    def get(self):
+
+        username = self.request.headers.get("username")
+        data = []
+        for doc in ServerDocuments().get_servers_by_user(username):
+                data.append({
+                    "server_name":doc["serverName"],
+                    "public_key":doc["public_key"],
+                    "ip_address":doc["ip_address"],
+                    "status":"DEAD"
+                })
+
+
+        print(data)
+        json = {"ERROR": "No servers Exist"}
+        try:
+            self.finish({"servers":data})
+        except Exception, e:
+            print e
+
+        return
+
+
 
 @serverjwtauth
-class ServerHandler(tornado.web.RequestHandler):
+class ServerHandler(BaseHandler):
     def get(self):
         serverName =  self.request.headers.get("serverName")
         if serverName:

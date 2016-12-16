@@ -9,20 +9,7 @@ import time
 from auth.jwtauth import jwtauth, secret_key
 from database.Users import UserDocuments
 from tornado.options import define, options
-
-
-class BaseHandler(tornado.web.RequestHandler):
-    def set_default_headers(self):
-        self.set_header("Access-Control-Allow-Origin", "*");
-        self.set_header("Access-Control-Allow-Credentials", "true");
-        self.set_header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
-        self.set_header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers");
-
-
-    def options(self):
-        # no body
-        self.set_status(204)
-        self.finish()
+from basehandler import BaseHandler
 
 @jwtauth
 class UserHandler(tornado.web.RequestHandler):
@@ -86,10 +73,6 @@ class AuthHandler(BaseHandler):
 
             encoded = jwt.encode({'username':username, 'exp': exp_time},secret_key, algorithm='HS256')
             exp_time = (exp_time - datetime.datetime(1970,1,1)).total_seconds()
-            try:
-                print exp_time.strftime('%S')
-            except Exception, e:
-                print e
 
             response = {
                 "login":True,

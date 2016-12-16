@@ -12,11 +12,12 @@ class ServerDocuments(DB):
             DB.__init__(self,host,port,db)
 
 
-    def add_server(self, name,description,host,public_key,private_key):
+    def add_server(self, name,username, description,host,public_key,private_key):
         date = int(time.time())
         self.db.servers.insert_one(
             {
                 "serverName"  : name,
+                "username"    : username,
                 "description" : description,
                 "ip_address"  : host,
                 "public_key"  : public_key,
@@ -30,6 +31,9 @@ class ServerDocuments(DB):
 
     def get_serverByPublic(self, publicKey):
         return self.db.servers.find_one({"public_key": publicKey})
+
+    def get_servers_by_user(self, username):
+        return self.db.servers.find({"username": username})
 
 
 

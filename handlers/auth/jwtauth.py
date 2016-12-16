@@ -1,4 +1,5 @@
 import jwt
+import datetime
 
 secret_key = "secret_string"
 options = {
@@ -22,35 +23,37 @@ def jwtauth(handler_class):
                 if parts[0].lower() != 'bearer':
                     handler._transforms = []
                     handler.set_status(401)
-                    handler.write("invalid header authorization")
+                    handler.write({"ERROR":"invalid header authorization"})
                     handler.finish()
                 elif len(parts) == 1:
                     handler._transforms = []
                     handler.set_status(401)
-                    handler.write("invalid header authorization")
+                    handler.write({"ERROR":"invalid header authorization"})
                     handler.finish()
                 elif len(parts) > 2:
                     handler._transforms = []
                     handler.set_status(401)
-                    handler.write("invalid header authorization")
+                    handler.write({"ERROR":"invalid header authorization"})
                     handler.finish()
 
                 token = parts[1]
                 try:
-                    jwt.decode(
+                    token_obj = jwt.decode(
                         token,
                         secret_key,
                         options=options
                     )
+                    handler.request.headers.add("username",token_obj["username"])
+
 
                 except Exception, e:
                     handler._transforms = []
                     handler.set_status(401)
-                    handler.write(e.message)
+                    handler.write({"ERROR":e.message})
                     handler.finish()
             else:
                 handler._transforms = []
-                handler.write("Missing authorization")
+                handler.write({"ERROR":"Missing authorization"})
                 handler.finish()
 
             return True

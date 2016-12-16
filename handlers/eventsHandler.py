@@ -2,7 +2,7 @@ import tornado.web
 from auth.jwtauth import jwtauth
 from database.Events import EventDocuments
 
-
+@jwtauth
 class EventTypeHandler(tornado.web.RequestHandler):
     def get(self,servername,type):
         try:
@@ -25,6 +25,7 @@ class EventTypeHandler(tornado.web.RequestHandler):
         self.set_header("Content-Type", 'application/json; charset="utf-8"')
         self.write(ed.toJson())
 
+@jwtauth
 class EventHandler(tornado.web.RequestHandler):
     def get(self,servername):
 
