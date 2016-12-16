@@ -1,3 +1,4 @@
+import math
 import tornado.web
 import tornado
 import hashlib, uuid
@@ -74,22 +75,30 @@ class AuthHandler(BaseHandler):
             return
 
         result = UserDocuments().get_user(username)
-
         if result is None:
             self.write({"login":False, "msg":"username and/or password invalid"})
             self.finish();
 
         hashed_password = hashlib.sha512(password + result["salt"]).hexdigest()
         if hashed_password == result["password"] :
+
             exp_time = datetime.datetime.utcnow() + datetime.timedelta(seconds=int(options.token_age))
+
             encoded = jwt.encode({'username':username, 'exp': exp_time},secret_key, algorithm='HS256')
+            exp_time = (exp_time - datetime.datetime(1970,1,1)).total_seconds()
+            try:
+                print exp_time.strftime('%S')
+            except Exception, e:
+                print e
+
             response = {
                 "login":True,
                 "username":username,
                 "email":result["email"],
-                "exp":exp_time.strftime('%s'),
+                "exp":math.floor(exp_time),
                 "token":encoded,
             }
+            print response
             self.write(response)
         else:
             response = {"login":False, "msg":"username and/or password invalid"}
