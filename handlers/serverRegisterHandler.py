@@ -1,3 +1,5 @@
+import string
+
 import tornado.web
 import random
 import hashlib
@@ -9,6 +11,32 @@ from auth.serverjwtauth import serverjwtauth
 from basehandler import BaseHandler
 
 
+@jwtauth
+class ServerAPIKeyRegen(BaseHandler):
+    def post(self):
+        data = tornado.escape.json_decode(self.request.body)
+        print data
+        try:
+            serverName = data["serverName"]
+        except Exception, e:
+            json = {"error": "invalid json"}
+            self.write(json)
+            self.finish()
+        if ServerDocuments().get_server(serverName) is not None:
+            username = self.request.headers.get("username")
+            salt = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(20))
+            private_key = str("" + (hashlib.sha512(bytes(salt))).hexdigest())
+            print private_key
+
+            public_key = jwt.encode({'serverName': serverName}, private_key, algorithm='HS256')
+            ServerDocuments().update_server_key(serverName,username, public_key, str(private_key))
+            json = {"msg": "server key regened :)","publicKey" : public_key}
+            self.write(json)
+            self.finish()
+        else:
+            json = {"ERROR":"No servers exists"}
+            self.write(json)
+            self.finish()
 
 @jwtauth
 class ServerRegisterHandler(BaseHandler):
@@ -26,7 +54,7 @@ class ServerRegisterHandler(BaseHandler):
             return
 
         if ServerDocuments().get_server(serverName) is None:
-            private_key = (hashlib.sha512(bytes(serverName))).hexdigest()
+            private_key = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(100))
 
             print private_key
 
@@ -48,7 +76,6 @@ class ServerRegisterHandler(BaseHandler):
 @jwtauth
 class ServerListHandler(BaseHandler):
     def get(self):
-
         username = self.request.headers.get("username")
         data = []
         for doc in ServerDocuments().get_servers_by_user(username):
@@ -62,12 +89,11 @@ class ServerListHandler(BaseHandler):
 
         print(data)
         json = {"ERROR": "No servers Exist"}
-        try:
-            self.finish({"servers":data})
-        except Exception, e:
-            print e
+        self.finish({"servers":data})
 
-        return
+
+
+
 
 
 

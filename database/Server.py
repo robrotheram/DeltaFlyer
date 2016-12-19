@@ -1,3 +1,4 @@
+import pprint
 import time
 
 from database.DB import DB
@@ -25,6 +26,15 @@ class ServerDocuments(DB):
                 "created_at"  : date
             }
         );
+
+    def update_server_key(self, name,username, public_key,private_key):
+        result = self.db.servers.update_one({"serverName"  : name, "username": username},{"$set":{
+            "public_key"  : public_key,
+            "private_key" : private_key,
+        }});
+        print private_key
+        print public_key
+
 
     def get_server(self, serverName):
         return self.db.servers.find_one({"serverName" : serverName})

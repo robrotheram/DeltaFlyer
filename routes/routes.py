@@ -1,5 +1,5 @@
 
-from handlers.serverRegisterHandler import ServerRegisterHandler, ServerHandler, ServerListHandler
+from handlers.serverRegisterHandler import ServerRegisterHandler, ServerHandler, ServerListHandler,ServerAPIKeyRegen
 from handlers.tileHandler import TileHandler
 from handlers.userHandler import AuthHandler
 from handlers.userHandler import RegisterHandler
@@ -18,6 +18,7 @@ route_paths = [
     (r'/users/register', RegisterHandler),
 
     (r'/v1/server', ServerHandler),
+    (r'/v1/server/regen', ServerAPIKeyRegen),
     (r'/v1/server/list', ServerListHandler),
     (r'/v1/server/register', ServerRegisterHandler),
 
