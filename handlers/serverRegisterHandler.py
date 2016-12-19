@@ -78,19 +78,21 @@ class ServerListHandler(BaseHandler):
     def get(self):
         username = self.request.headers.get("username")
         data = []
-        for doc in ServerDocuments().get_servers_by_user(username):
-                data.append({
-                    "server_name":doc["serverName"],
-                    "public_key":doc["public_key"],
-                    "ip_address":doc["ip_address"],
-                    "status":"DEAD"
-                })
-
-
-        print(data)
-        json = {"ERROR": "No servers Exist"}
-        self.finish({"servers":data})
-
+        print "hi 1"
+        doc = ServerDocuments().get_one_servers_by_user(username)
+        print(doc)
+        if doc is not None:
+            print "hi 3"
+            data = {
+                "server_name":doc["serverName"],
+                "public_key":doc["public_key"],
+                "ip_address":doc["ip_address"],
+                "status":"ALIVE"
+            }
+            self.finish({"servers":data})
+        else:
+            json = {"ERROR": "No servers Exist"}
+            self.finish(json)
 
 
 

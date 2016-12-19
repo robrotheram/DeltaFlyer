@@ -45,6 +45,10 @@ class ServerDocuments(DB):
     def get_servers_by_user(self, username):
         return self.db.servers.find({"username": username})
 
+    def get_one_servers_by_user(self, username):
+        print "hi 2"
+        return self.db.servers.find_one({"username": username})
+
 
 
     #    print pd.getE"playerUUID" : "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",ventsWithType("testACCOUNT_events","PlayerMoveEvent").toJson()
