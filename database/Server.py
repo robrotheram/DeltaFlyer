@@ -35,6 +35,15 @@ class ServerDocuments(DB):
         print private_key
         print public_key
 
+    def update_server_key(self, name,username, serverName, description,host):
+         self.db.servers.update_one({"serverName"  : name, "username": username},
+                                    {"$set":{
+                                        "serverName"  : serverName,
+                                        "description" : description,
+                                        "ip_address" : host,
+                                        }
+                                    });
+
 
     def get_server(self, serverName):
         return self.db.servers.find_one({"serverName" : serverName})
