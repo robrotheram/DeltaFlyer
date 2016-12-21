@@ -32,6 +32,14 @@ class UserDocuments(DB):
                                                     "salt" : salt,
                                                 }
                                             });
+
+    def update_user(self, username,email):
+        print {"username": username};
+        result = self.db.users.update_one({"username": username},
+                                              {"$set":{
+                                                  "email" : email,
+                                              }
+                                          });
         print result;
 
     def get_user(self, username):

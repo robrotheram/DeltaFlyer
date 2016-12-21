@@ -78,7 +78,10 @@ class ServerUpdateHandler(BaseHandler):
         data = tornado.escape.json_decode(self.request.body)
         try:
             username = self.request.headers.get("username")
-            serverNameOld = data["serverNameOld"]
+            if data.has_key("serverNameOld") :
+                serverNameOld = data["serverNameOld"]
+            else:
+                serverNameOld = ""
             serverName = data["serverName"]
             description = data["description"]
             ip_address = data["ip_address"]
@@ -90,20 +93,29 @@ class ServerUpdateHandler(BaseHandler):
             return
 
         if ServerDocuments().get_server(serverNameOld) is not None:
-            ServerDocuments().update_server(serverNameOld, serverName, username, description, ip_address)
+            private_key = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(100))
+            public_key = jwt.encode({'serverName': serverName}, private_key, algorithm='HS256')
+            ServerDocuments().update_server(serverNameOld, serverName, username, description, ip_address,public_key, private_key)
             data = {
                 "server_name":serverName,
                 "ip_address":ip_address,
-                "description":description
+                "description":description,
+                "public_key":public_key,
             }
             self.finish({"servers":data})
             return
-
         else:
-            json = {"error": "Server exits"}
-            self.write(json)
-            self.finish()
-            return
+            private_key = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(100))
+            public_key = jwt.encode({'serverName': serverName}, private_key, algorithm='HS256')
+            username = self.request.headers.get("username")
+            ServerDocuments().add_server(serverName, username, description, ip_address, public_key, private_key)
+            data = {
+                "server_name":serverName,
+                "ip_address":ip_address,
+                "description":description,
+                "public_key":public_key,
+            }
+            self.finish({"servers":data})
 
 
 @jwtauth

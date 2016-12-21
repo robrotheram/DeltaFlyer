@@ -54,7 +54,11 @@ class UserUpdateHandler(BaseHandler):
         data = tornado.escape.json_decode(self.request.body)
         try:
             username = self.request.headers.get("username")
-            password = data["password"]
+            if data.has_key("password") :
+                password = data["password"]
+            else:
+                password = None
+
             email = data["email"]
             date = int(time.time())
         except Exception, e:
@@ -64,9 +68,13 @@ class UserUpdateHandler(BaseHandler):
             return
 
         if UserDocuments().get_user(username) is not None:
-            salt = uuid.uuid4().hex
-            hashed_password = hashlib.sha512(password + salt).hexdigest()
-            UserDocuments().update_user(username,hashed_password,salt,email)
+            if password is not None:
+                salt = uuid.uuid4().hex
+                hashed_password = hashlib.sha512(password + salt).hexdigest()
+                UserDocuments().update_user(username,hashed_password,salt,email)
+            else:
+                UserDocuments().update_user(username, email)
+
             response = {
                 "login":True,
                 "username":username,
