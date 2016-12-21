@@ -1,9 +1,10 @@
 import tornado.web
+from basehandler import BaseHandler
 from auth.jwtauth import jwtauth
 from database.Events import EventDocuments
 
 @jwtauth
-class EventTypeHandler(tornado.web.RequestHandler):
+class EventTypeHandler(BaseHandler):
     def get(self,servername,type):
         try:
             time = int(self.get_argument("time", default=None, strip=False))
@@ -26,7 +27,7 @@ class EventTypeHandler(tornado.web.RequestHandler):
         self.write(ed.toJson())
 
 @jwtauth
-class EventHandler(tornado.web.RequestHandler):
+class EventHandler(BaseHandler):
     def get(self,servername):
 
         try:
