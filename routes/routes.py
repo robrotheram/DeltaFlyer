@@ -1,8 +1,7 @@
 
-from handlers.serverRegisterHandler import ServerRegisterHandler, ServerHandler, ServerListHandler,ServerAPIKeyRegen
+from handlers.serverRegisterHandler import *
 from handlers.tileHandler import TileHandler
-from handlers.userHandler import AuthHandler
-from handlers.userHandler import RegisterHandler
+from handlers.userHandler import *
 from handlers.ingestHandler import IngestHandler
 
 from handlers.eventsHandler import EventHandler
@@ -15,11 +14,13 @@ route_paths = [
     (r"/(.*)/tile/(.*)/(\d+)/(-?[0-9]+)/(-?[0-9]+)", TileHandler),
 
     (r'/users/auth', AuthHandler),
+    (r'/users/update', UserUpdateHandler),
     (r'/users/register', RegisterHandler),
 
     (r'/v1/server', ServerHandler),
     (r'/v1/server/regen', ServerAPIKeyRegen),
     (r'/v1/server/list', ServerListHandler),
+    (r'/v1/server/update', ServerUpdateHandler),
     (r'/v1/server/register', ServerRegisterHandler),
 
     #(r'/v1/(.*)/player/(.*)', EventHandler),

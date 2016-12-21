@@ -35,14 +35,17 @@ class ServerDocuments(DB):
         print private_key
         print public_key
 
-    def update_server_key(self, name,username, serverName, description,host):
-         self.db.servers.update_one({"serverName"  : name, "username": username},
+    def update_server(self, serverNameOld, serverName, username, description,host):
+        print {"serverName": serverNameOld, "username": username};
+
+        result = self.db.servers.update_one({"serverName": serverNameOld, "username": username},
                                     {"$set":{
-                                        "serverName"  : serverName,
-                                        "description" : description,
-                                        "ip_address" : host,
+                                        "serverName": serverName,
+                                        "description": description,
+                                        "ip_address": host,
                                         }
                                     });
+        print result;
 
 
     def get_server(self, serverName):
@@ -57,7 +60,3 @@ class ServerDocuments(DB):
     def get_one_servers_by_user(self, username):
         print "hi 2"
         return self.db.servers.find_one({"username": username})
-
-
-
-    #    print pd.getE"playerUUID" : "9ac16c7f-6ef7-4df3-af4a-934b9e89d1a4",ventsWithType("testACCOUNT_events","PlayerMoveEvent").toJson()

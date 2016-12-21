@@ -72,6 +72,39 @@ class ServerRegisterHandler(BaseHandler):
             self.write(json)
             self.finish()
             return
+@jwtauth
+class ServerUpdateHandler(BaseHandler):
+    def post(self):
+        data = tornado.escape.json_decode(self.request.body)
+        try:
+            username = self.request.headers.get("username")
+            serverNameOld = data["serverNameOld"]
+            serverName = data["serverName"]
+            description = data["description"]
+            ip_address = data["ip_address"]
+
+        except Exception, e:
+            json = {"error": "invalid json"}
+            self.write(json)
+            self.finish()
+            return
+
+        if ServerDocuments().get_server(serverNameOld) is not None:
+            ServerDocuments().update_server(serverNameOld, serverName, username, description, ip_address)
+            data = {
+                "server_name":serverName,
+                "ip_address":ip_address,
+                "description":description
+            }
+            self.finish({"servers":data})
+            return
+
+        else:
+            json = {"error": "Server exits"}
+            self.write(json)
+            self.finish()
+            return
+
 
 @jwtauth
 class ServerListHandler(BaseHandler):
@@ -87,6 +120,7 @@ class ServerListHandler(BaseHandler):
                 "server_name":doc["serverName"],
                 "public_key":doc["public_key"],
                 "ip_address":doc["ip_address"],
+                "description":doc["description"],
                 "status":"ALIVE"
             }
             self.finish({"servers":data})

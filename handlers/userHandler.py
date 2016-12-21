@@ -48,6 +48,39 @@ class RegisterHandler(BaseHandler):
             self.finish()
             return
 
+@jwtauth
+class UserUpdateHandler(BaseHandler):
+    def post(self):
+        data = tornado.escape.json_decode(self.request.body)
+        try:
+            username = self.request.headers.get("username")
+            password = data["password"]
+            email = data["email"]
+            date = int(time.time())
+        except Exception, e:
+            json = {"error":"invalid json"}
+            self.write(json)
+            self.finish()
+            return
+
+        if UserDocuments().get_user(username) is not None:
+            salt = uuid.uuid4().hex
+            hashed_password = hashlib.sha512(password + salt).hexdigest()
+            UserDocuments().update_user(username,hashed_password,salt,email)
+            response = {
+                "login":True,
+                "username":username,
+                "email":email,
+            }
+            self.finish(response)
+            return
+
+        else :
+            json = {"error":"user exits"}
+            self.write(json)
+            self.finish()
+            return
+
 class AuthHandler(BaseHandler):
 
     def post(self):

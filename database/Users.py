@@ -23,6 +23,16 @@ class UserDocuments(DB):
                 "created_at" : date
             }
         );
+    def update_user(self, username,hashed_password,salt,email):
+        print {"username": username};
+        result = self.db.users.update_one({"username": username},
+                                                {"$set":{
+                                                    "password" : hashed_password,
+                                                    "email" : email,
+                                                    "salt" : salt,
+                                                }
+                                            });
+        print result;
 
     def get_user(self, username):
         return self.db.users.find_one({"username" : username})
