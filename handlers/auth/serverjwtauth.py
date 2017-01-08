@@ -21,7 +21,7 @@ def serverjwtauth(handler_class):
             if auth:
 
                 server = ServerDocuments().get_serverByPublic(auth)
-                print server["private_key"]
+                #print server["private_key"]
 
                 try:
                     data = jwt.decode(

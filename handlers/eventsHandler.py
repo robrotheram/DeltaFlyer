@@ -17,7 +17,7 @@ class EventTypeHandler(BaseHandler):
             time = 0
             delta = 60
         collection = servername+"_events"
-        ed = EventDocuments().getEvents(collection,time,delta).filter("EventType",[type]).execute()
+        ed = EventDocuments().getEvents(collection,time,delta).filter("Evnt",[type]).execute()
 
 
         if list is not None:
@@ -41,6 +41,8 @@ class EventHandler(BaseHandler):
             time = 0
             delta = 60
         collection = servername+"_events"
+
+
         ed = EventDocuments().getEvents(collection,time,delta).execute()
         if list is not None:
             ed.refine(list)

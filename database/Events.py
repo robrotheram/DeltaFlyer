@@ -13,7 +13,7 @@ class EventDocuments(DB):
         self.gettimeboundaries(t,delta)
         self.collection = collection
         self.querry = {
-            "meta.time": {
+            "Time": {
                 "$gte":self.time_lower,
                 "$lt":self.time_upper
             }

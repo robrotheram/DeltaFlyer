@@ -69,22 +69,29 @@ class Tile:
             return Image.new('RGB',(32,32))
 
     def render_chunk(self,blocks):
-        img = Image.new('RGB', (self.chunk_image_size,self.chunk_image_size)) #512 x 512
         img_hash = hash(tuple(blocks))
         width =16;
-        if(img_hash in self.rendered_chunks):
-            return self.rendered_chunks[img_hash]
-        else:
-            logging.info("rendering new chunk")
-            #blocks.reverse();
-            for i in range(0,(width*width),1):
-                x = int(math.floor(i / width))
-                y = int(i % width)
+        img = Image.open("./"+str(img_hash)+".png")
+        
+        if not img.verify():
+            img = Image.new('RGB', (self.chunk_image_size,self.chunk_image_size)) #512 x 512
+            if(img_hash in self.rendered_chunks):
+                return self.rendered_chunks[img_hash]
+            else:
+                logging.info("rendering new chunk")
+                #blocks.reverse();
+                for i in range(0,(width*width),1):
+                    x = int(math.floor(i / width))
+                    y = int(i % width)
+                    im = self.get_img(blocks[i])
+                    img.paste(im, ((x*self.block_size),(y*self.block_size)))
+                self.rendered_chunks[img_hash]=img
+                try:
+                    img.save("./"+str(img_hash)+".png","PNG")
+                except Exception, e:
+                    print e;
 
-                im = self.get_img(blocks[i])
-                img.paste(im, ((x*self.block_size),(y*self.block_size)))
-            self.rendered_chunks[img_hash]=img
-            return img#.rotate(270)#.transpose(Image.FLIP_LEFT_RIGHT)
+        return img#.rotate(270)#.transpose(Image.FLIP_LEFT_RIGHT)
 
     def rendertile(self,server,world,z,x,y):
         chunklist = self.get_chunk_list(z,x,y)
