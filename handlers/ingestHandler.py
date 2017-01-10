@@ -17,9 +17,10 @@ class IngestHandler(tornado.web.RequestHandler):
     @run_on_executor
     def background_task(self, data, serverName, producer):
         """ This will be executed in `executor` pool. """
-        data["meta"] = {"serverID":serverName};
-        r = json.dumps(data)
+
         try:
+            data["meta"] = {"serverID":serverName};
+            r = json.dumps(data)
             producer.send(options.kafka_topic, r).get(timeout=1)
             return True
         except Exception,e:
