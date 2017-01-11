@@ -13,14 +13,16 @@ class ChuckDocuments(DB):
         self.gettimeboundaries(t,0)
         self.collection = collection
         self.querry = {
-            "time": {
+            "Time": {
                 "$lt":self.time_upper
             },
             "location.world":w,
-            "location.x":x,
-            "location.z":z
+            "location.x":int(x),
+            "location.z":int(z)
 
         }
+        print self.querry
+
         return self
 
 #{"time":{"$lt":1479993634},"location.world":"world","location.x":10,"location.z":-11}).sort({"time":-1}).limit(1)
