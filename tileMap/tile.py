@@ -66,9 +66,11 @@ class Tile:
             return Image.open(self.get_img_path(block))
         except EnvironmentError:
             logging.info("ERROR: %s" % self.get_img_path(block) )
+            print "ERROR"+block
             return Image.new('RGB',(32,32))
 
     def render_chunk(self,blocks):
+        #print blocks
         img_hash = hash(tuple(blocks))
         width =16;
         try:
@@ -133,7 +135,7 @@ class Tile:
             x,z,
             0#1479993634 #1479205639
         )
-        pd.set_sort("time",-1)
+        pd.set_sort("Time",-1)
         pd.set_limit(1)
         pd.execute()
         return pd.getResult()
